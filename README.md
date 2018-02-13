@@ -1,4 +1,4 @@
-# gonexmo [![GoDoc](https://godoc.org/github.com/njern/gonexmo?status.png)](https://godoc.org/gopkg.in/njern/gonexmo.v1)
+# gonexmo [![GoDoc](https://godoc.org/github.com/oogway/gonexmo?status.png)](https://godoc.org/gopkg.in/oogway/gonexmo.v1)
 
 gonexmo is a [Go](http://golang.org/) library tailored for sending SMS's with
 [Nexmo](https://www.nexmo.com/).
@@ -8,11 +8,11 @@ gonexmo is a [Go](http://golang.org/) library tailored for sending SMS's with
 
 Assuming you have a working Go environment, installation is simple:
 
-    go get "gopkg.in/njern/gonexmo.v2"
+    go get "gopkg.in/oogway/gonexmo.v2"
     
 You can take a look at the documentation locally with:
 
-	godoc github.com/njern/gonexmo
+	godoc github.com/oogway/gonexmo
 
 The included tests in `gonexmo_test.go` also illustrate usage of the package.
 
@@ -22,7 +22,7 @@ Nexmo account or receiving thousands of test SMS's - sorry :)
 
 
 ## Usage
-    import "gopkg.in/njern/gonexmo.v2"
+    import "gopkg.in/oogway/gonexmo.v2"
 
     nexmoClient, _ := nexmo.NewClient("API_KEY_GOES_HERE", "API_SECRET_GOES_HERE")
 
@@ -45,7 +45,7 @@ Nexmo account or receiving thousands of test SMS's - sorry :)
 ## Receiving inbound messages
 
     import (
-        "gopkg.in/njern/gonexmo.v2"
+        "gopkg.in/oogway/gonexmo.v2"
         "log"
         "net/http"
     )
